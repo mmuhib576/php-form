@@ -1,0 +1,92 @@
+
+*{
+    box-sizing: border-box;
+    }
+    
+    body{
+    background-color: whitesmoke;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    min-height: 100;
+    margin: 1;
+    }
+    
+    .container{
+    width: 650px;
+    border-radius: 15px;
+    background-color: white;
+    box-shadow: 0px 2.5px 11px goldenrod;
+    }
+    
+    .row{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    }
+    
+    h1{
+    text-align: center;
+    margin: 1 1 15px;
+    color: goldenrod;
+    }
+    
+    h3{
+        text-align: center;
+        margin: 1 1 15px;
+        color: green;
+    }
+    
+    .small-container{
+        max-width: 600px;
+        margin: auto;
+        padding: 20px;
+    }
+    
+    .col{
+        flex-basis: 30%;
+        min-width: 25px;
+        margin-bottom: 30px;
+    }
+    
+    .col img{
+        width: 100%;
+    }
+    
+    .button{
+        cursor: pointer;
+        border-radius: 4px;
+        color: white;
+        display: block;
+        font-size: 16px;
+        padding: 10px;
+        margin-top:20px;
+        width: auto;
+        background-color: goldenrod;
+        }
+
+        .form {
+            padding: 25px 35px;
+            }
+            
+            .info{
+            display: grid;
+            margin-bottom: 20px;
+            grid-template-columns: 40% 60%;
+            }
+            
+            .form button{
+                cursor: pointer;
+                border-radius: 4px;
+                color: white;
+                display: block;
+                font-size: 16px;
+                padding: 10px;
+                margin-top:20px;
+                width: auto;
+                background-color: goldenrod;
+                border: 2p solid goldenrod;
+                }
+
+    
