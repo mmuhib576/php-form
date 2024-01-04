@@ -1,1 +1,5 @@
-Php form that shows a menu.
+Form validation using PHP.
+
+Home page
+Checkout form
+Invoice
